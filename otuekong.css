@@ -1,48 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: circle;
+}
+
 body{
     background-color: #f7f4f4
 }
 
-#head1{
+header{
     background-color: purple;
-    height: 150px;
     color: white;
     padding: 20px;
-    border-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 
 }
-#name {
-    font-weight: bolder;
-    font-size: 30px;
-  }
-
-img {   padding-top: -25px;
-        
-        width: 120px;
-        float: left;
+img {  
+     width: 120px;
         margin-right: 20px;
         border-radius: 8px;
-        
     }
-    #head2 img.tall{
-        max-height: 100%;
-    } 
-    .tag{
-        text-align: center;
-        color: purple;
-    }
+
+   section{
+       width: 90%;
+       margin: auto;
+       margin-top: 10px;
+       margin-bottom: 10px;
+   }
+
+   section h2{
+       text-align: left;
+       color: rgb(70, 2, 70);
+       padding: 10px 0;
+   }
+   footer{
+       background: #000;
+       color: rgb(117, 109, 109);
+       font-size: 20px;
+       height: 70px;
+       text-align: center;
+       font-weight: 300;
+   }
     .content{
-        margin: auto;
-  width: 60%;
-  border: 3px solid purple;
-  padding: 10px;
+  padding: 10px 25px;
   border-radius: 8px;
   background-color: white;
     }
+
+    
     .Job {
         color: purple;
+        border-left: 5px solid purple;
         padding-left: 5px;
         margin-bottom: 5px;
-        line-height: 1px;
       }
 
       .form-box{
